@@ -1,0 +1,263 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* The css code for the header of the page */
+.header {
+    padding: 35px;
+    background-color: #19bd9b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.logo h1{
+    margin: 0;
+}
+
+.menue ul {
+    list-style-type: none;
+}
+
+.menue ul :hover {
+    color: silver;
+    cursor: pointer;
+}
+
+.menue ul li {
+    font-size: 18px;
+    display: inline;
+    padding: 10px;
+
+}
+
+.menue ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* The bellow code belongs to the body class of the page */
+
+.body {
+    display: flex;
+    justify-content: center;
+} 
+
+ .body img {
+     margin-right: 40px;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+}
+
+.intro {
+    padding-left: 0%;
+    margin-top: 45px;
+    color: black;
+}
+.intro h2 {
+    display: inline;
+    line-height: 30px;
+}
+.intro .developer_heading {
+    padding: 20px;
+    display: inline;
+    color: #19bd9b;
+    line-height: 60px;
+}
+/* The code bellow this line belongs to the css of paragraphs section */
+.paragraphs{
+    padding: 50px 50px 0px 50px;
+}
+.inner_paragraphs {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.paragraphs h3 {
+    text-align: center;
+    margin: 0%;
+}
+.paragraphs p {
+    line-height: 20px;
+    word-spacing: 3px;
+}
+.paragraphs a {
+    text-decoration: none;
+    color: #19bd9b;
+}
+
+/* The Above are the CSS code for th Home page */
+/* This is the start of the css code for the About page  */
+
+.about_header {
+    padding: 25px;
+    background-color: #19bd9b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.about_logo h1{
+    margin: 0;
+}
+
+.about_menue ul {
+    list-style-type: none;
+}
+
+.about_menue ul :hover {
+    color: silver;
+    cursor: pointer;
+}
+
+.about_menue ul li {
+    font-size: 18px;
+    display: inline;
+    padding: 10px;
+
+}
+
+.about_menue ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* the code belongs to the body of the about page */
+
+.about_body {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about_body img{
+    width: 360px;
+    height: 400px;
+    margin-left: 80PX;
+}
+.about_context {
+    padding-left: 30px;
+}
+.about_context .about_biography {
+    font-size: 20px;
+}
+.about_context .about_info {
+    font-size: 15px;
+    word-spacing: 4px;
+    line-height: 20px;
+
+}
+
+/* The above code belongs to the about page of the portfolio  */
+
+/* The bellow code belongs to the contact page of the portfolio */
+
+/* .contact_page {
+    
+} */
+.contact_header {
+    padding: 25px;
+    background-color: #19bd9b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* margin-bottom: 60px; */
+}
+
+.contact_logo h1{
+    margin: 0;
+}
+
+.contact_menue ul {
+    list-style-type: none;
+}
+
+.contact_menue ul :hover {
+    color: silver;
+    cursor: pointer;
+}
+
+.contact_menue ul li {
+    font-size: 18px;
+    display: inline;
+    padding: 10px;
+
+}
+
+.contact_menue ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* The above code belongs to the header part of the contact page */
+
+.contact_body {
+    background-color: #EAEAEA;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact_main {
+    margin: 0;
+    padding: 50px;
+}
+
+.contact_main_heading {
+    margin: 0;
+    color: gray;
+}
+
+.contact_main_paragraph {
+    color: gray;
+}
+
+form label {
+    color: gray;
+    font-weight: bold;
+}
+
+form input{
+    padding: 15px;
+    width: 390px;
+}
+
+form textarea {
+    padding: 45px;
+    width: 333px;
+}
+
+form button {
+    padding: 8px;
+    width: 130px;
+    background-color: #19bd9b;
+    border-color: #19bd9b;
+}
+
+.contact_main2 {
+    margin: 0;
+    padding: 50px;
+}
+
+.inner_contact_main2 h2 {
+    color: gray;
+}
+
+.inner_contact_main2 h5 {
+    color: #19bd9b;
+    /* padding: 0; */
+    margin: 5px;
+}
+
+.inner_contact_main2 a {
+    color: gray;
+    text-decoration: none;
+}
+
+/* The above are the code for the contact page of the portfolio */
